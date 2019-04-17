@@ -1,7 +1,7 @@
 <?php
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, 'http://live.mks.ch/mobile/myr/v1/');
+curl_setopt($ch, CURLOPT_URL, 'https://mkspm.com/m/prices.xhtml');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_TIMEOUT,10);
 $response = curl_exec($ch);
